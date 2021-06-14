@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Design</title>
+    <style>
+        body {
+            background-color: darkslategray;
+        }
+
+        .navbar {
+            border: 1px solid slategray;
+            border-radius: 8px;
+            height: 4.5em;
+            background-color: white;
+            
+            
+        }
+        .navbar-property{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flex-container{
+            color: antiquewhite;
+            border: 5px solid slategray;
+            border-radius: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 5px;
+            background-color: white;
+            
+        }
+
+        .flex-items {
+            width: 16em;
+            height: 35em;
+            border: 1px solid lightcoral;
+            border-radius: 8px;
+            justify-content: space-between;
+            margin: 25px;
+            position: relative;
+            background-color: white;
+            
+        }
+        /* .flex-items:hover{
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        } */
+
+        .flex-items:hover img, .flex-items:focus img {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+}
+        .postion {
+            position: absolute;
+            padding: 15px;
+
+        }
+        h2,p{
+            font-family: 'Courier New', Courier, monospace;
+            font-style: normal;
+            color: green;
+            font-size: medium;
+        }
+        button{
+            background-color: burlywood;
+            font-size: 20px;
+            border-radius: 8px;
+            border: 2px solid burlywood;
+            justify-content: center;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-items">
+           <div class="navbar-property" >
+            <image src="tourism_logo.png" alt="logo" style="width: 50px; height: 50px; margin: 10px; border: 1px solid black; border-radius: 8px;  "
+            ></image>
+            <h1 style="color: cornflowerblue; ">Tourism</h1>
+           </div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="flex-items">
+            <div class="postion">
+
+                <image src="alpha.png" alt="alpha" style="width: 200px;
+                        height: 200px; "></image>
+
+
+                <h2 align="center">Alwar</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, cumque nobis? Maxime ex, dolor
+                    deserunt
+                    vel
+                    quia saepe eveniet laboriosam laudantium eius? Veritatis ipsum quia veniam natus eveniet nam
+                    dolorum.
+                </p>
+
+                <button type="submit" >Submit</button>
+            </div>
+        </div>
+        <div class="flex-items">
+            <div class="postion">
+
+                <image src="alpha.png" alt="alpha" style="width: 200px;
+                        height: 200px; "></image>
+
+
+                <h2 align="center">Alwar</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, cumque nobis? Maxime ex, dolor
+                    deserunt
+                    vel
+                    quia saepe eveniet laboriosam laudantium eius? Veritatis ipsum quia veniam natus eveniet nam
+                    dolorum.
+                </p>
+
+                <button type="submit" >Submit</button>
+            </div>
+        </div>
+        <div class="flex-items">
+            <div class="postion">
+
+                <image src="alpha.png" alt="alpha" style="width: 200px;
+                        height: 200px; "></image>
+
+
+                <h2 align="center">Alwar</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, cumque nobis? Maxime ex, dolor
+                    deserunt
+                    vel
+                    quia saepe eveniet laboriosam laudantium eius? Veritatis ipsum quia veniam natus eveniet nam
+                    dolorum.
+                </p>
+
+                <button type="submit" >Submit</button>
+            </div>
+        </div>
+        <div class="flex-items">
+            <div class="postion">
+
+                <image src="alpha.png" alt="alpha" style="width: 200px;
+                        height: 200px; "></image>
+
+
+                <h2 align="center">Alwar</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, cumque nobis? Maxime ex, dolor
+                    deserunt
+                    vel
+                    quia saepe eveniet laboriosam laudantium eius? Veritatis ipsum quia veniam natus eveniet nam
+                    dolorum.
+                </p>
+
+                <button type="submit" >Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
